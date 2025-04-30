@@ -9,7 +9,8 @@ from sklearn.model_selection import train_test_split
 
 class ComprehensiveASLRecognizer:
     def __init__(self, model_path='comprehensive_asl_model.h5'):
-        # MediaPipe Hands setup
+        
+        # Initialize MediaPipe Hands
         self.mp_hands = mp.solutions.hands
         self.mp_drawing = mp.solutions.drawing_utils
         self.mp_drawing_styles = mp.solutions.drawing_styles

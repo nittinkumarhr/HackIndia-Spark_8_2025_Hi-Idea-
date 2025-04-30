@@ -59,7 +59,6 @@ Air Dashboard transforms natural gestures into digital visuals, enhanced in real
 - 🎨 Remote Design Teams → 35% faster collaboration
 - 🧏 Inclusive Classrooms → 4× increase in engagement
 - 🏢 Corporate Training → 78% engagement vs. 31% with slides
-
 ---
 
 ## 🧩 SWOT Analysis

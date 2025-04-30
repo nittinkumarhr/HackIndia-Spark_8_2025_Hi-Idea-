@@ -5,7 +5,7 @@ import numpy as np
 canvas_width, canvas_height = 1200, 600  # Increased to accommodate longer text
 canvas = np.ones((canvas_height, canvas_width, 3), dtype=np.uint8) * 255  # White background
 
-# Initial text properties
+
 default_text = "Eat Thank You Goodbye"  
 initial_font_size = 2  # OpenCV font scale (min 1, max 5)
 font = cv2.FONT_HERSHEY_SIMPLEX

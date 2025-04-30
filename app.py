@@ -2,7 +2,8 @@ import streamlit as st
 from landing import landing_page
 import main2
 
-# Set Page Configurations (MUST BE FIRST)
+
+
 st.set_page_config(
     page_title="Air Drawing App",
     page_icon="✋",

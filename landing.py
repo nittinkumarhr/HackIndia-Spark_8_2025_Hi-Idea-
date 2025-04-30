@@ -11,7 +11,7 @@ def change_page_to_sign():
 def landing_page():
     """Landing page for the Air Drawing App"""
     
-    # Custom CSS
+    
     st.markdown("""
     <style>
         /* Global styles */

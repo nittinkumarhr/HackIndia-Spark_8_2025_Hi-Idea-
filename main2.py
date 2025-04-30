@@ -18,6 +18,7 @@ import sys
 import subprocess
 
 
+
 class VirtualPaintWebApp:
     def __init__(self):
         self.bpoints = [deque(maxlen=1024)]
@@ -35,7 +36,6 @@ class VirtualPaintWebApp:
         self.color_names = ["BLUE", "GREEN", "RED", "YELLOW"]
         self.colorIndex = 0
         
-        # Canvas already set to 1200x1200
         self.paintWindow = np.zeros((1200, 1200, 3), dtype=np.uint8) + 255 
         self.setupCanvas()
         
