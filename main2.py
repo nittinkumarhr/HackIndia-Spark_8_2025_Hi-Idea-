@@ -10,14 +10,12 @@ from PIL import Image
 import threading
 import google.generativeai as genai
 import os
-from landing import landing_page
-import string
+from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
+import av
 from dotenv import load_dotenv
 import importlib.util
 import sys
 import subprocess
-
-
 
 class VirtualPaintWebApp:
     def __init__(self):
@@ -44,7 +42,7 @@ class VirtualPaintWebApp:
         
         self.ai_ask_mode = False
         self.analysis_running = False
-        self.image_path = "screen shot/Nitintemp.png"
+        self.image_path = "screen_shot/Nitintemp.png"
 
     def setupCanvas(self):
         """Sets up the drawing canvas with color selection buttons."""
@@ -210,6 +208,14 @@ class VirtualPaintWebApp:
         except Exception as e:
             return f"Error during analysis: {str(e)}"
 
+class WebcamProcessor(VideoProcessorBase):
+    def __init__(self, app):
+        self.app = app
+
+    def recv(self, frame):
+        img = frame.to_ndarray(format="bgr24")
+        processed_frame = self.app.process_frame(img)
+        return av.VideoFrame.from_ndarray(processed_frame, format="bgr24")
 
 def launch_advanced_draw(canvas_path=None):
     try:
@@ -228,7 +234,6 @@ def launch_advanced_draw(canvas_path=None):
     except Exception as e:
         st.error(f"Error launching advanced draw: {str(e)}")
         return False
-
 
 def run_streamlit_app(return_callback=None):
     if return_callback:
@@ -399,35 +404,22 @@ def run_streamlit_app(return_callback=None):
         if st.session_state.canvas_placeholder is not None:
             st.session_state.canvas_placeholder.image(paint_window_rgb, channels="RGB", use_container_width=True)
     elif st.session_state.webcam_started:
-        try:
-            cap = cv2.VideoCapture(0)
-            if not cap.isOpened():
-                if st.session_state.webcam_placeholder is not None:
-                    st.session_state.webcam_placeholder.error("Failed to open webcam.")
-                st.session_state.webcam_started = False
-                cap.release()
-            else:
-                cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)  # Increased to support 1200x1200
-                cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
-                while st.session_state.webcam_started:
-                    ret, frame = cap.read()
-                    if not ret:
-                        if st.session_state.webcam_placeholder is not None:
-                            st.session_state.webcam_placeholder.warning("Webcam feed unavailable. Retrying...")
-                        time.sleep(0.5)
-                        continue
-                    processed_frame = st.session_state.app.process_frame(frame)
-                    processed_frame_rgb = cv2.cvtColor(processed_frame, cv2.COLOR_BGR2RGB)
-                    paint_window_rgb = cv2.cvtColor(st.session_state.app.paintWindow, cv2.COLOR_BGR2RGB)
-                    if st.session_state.webcam_placeholder is not None:
-                        st.session_state.webcam_placeholder.image(processed_frame_rgb, channels="RGB", use_container_width=True)
-                    if st.session_state.canvas_placeholder is not None:
-                        st.session_state.canvas_placeholder.image(paint_window_rgb, channels="RGB", use_container_width=True)
-                    time.sleep(0.1)
-                cap.release()
-        except Exception as e:
+        # Use WebRTC for webcam access
+        ctx = webrtc_streamer(
+            key="webcam",
+            video_processor_factory=lambda: WebcamProcessor(st.session_state.app),
+            rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},
+            media_stream_constraints={"video": True, "audio": False},
+            async_processing=True,
+        )
+        if ctx.state.playing:
+            # Update canvas display
+            paint_window_rgb = cv2.cvtColor(st.session_state.app.paintWindow, cv2.COLOR_BGR2RGB)
+            if st.session_state.canvas_placeholder is not None:
+                st.session_state.canvas_placeholder.image(paint_window_rgb, channels="RGB", use_container_width=True)
+        else:
             if st.session_state.webcam_placeholder is not None:
-                st.session_state.webcam_placeholder.error(f"Error accessing webcam: {str(e)}")
+                st.session_state.webcam_placeholder.image(placeholder_img_rgb, channels="RGB", use_container_width=True)
             st.session_state.webcam_started = False
 
 if __name__ == "__main__":
