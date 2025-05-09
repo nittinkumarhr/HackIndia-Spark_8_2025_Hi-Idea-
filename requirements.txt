@@ -5,7 +5,7 @@ opencv_contrib_python==4.10.0.84
 opencv_python==4.11.0.86
 opencv_python_headless==4.11.0.86
 Pillow==11.2.1
-protobuf==4.25.3  # ✅ fixed version
+protobuf>=4.25.3,<5  # Changed from 6.30.2 to be compatible with mediapipe
 pygame==2.6.1
 PyOpenGL==3.1.9
 python-dotenv==1.1.0
@@ -16,9 +16,3 @@ speechrecognition==3.14.2
 streamlit==1.43.2
 sympy==1.13.1
 tensorflow-cpu==2.19.0
-libgl1-mesa-glx
-libglib2.0-0
-libsm6
-libxrender1
-libxext6
-libfontconfig1
