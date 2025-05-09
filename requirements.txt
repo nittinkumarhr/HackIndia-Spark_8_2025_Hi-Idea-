@@ -16,3 +16,4 @@ speechrecognition==3.14.2
 streamlit==1.43.2
 sympy==1.13.1
 tensorflow-cpu==2.19.0
+google-generativeai
