@@ -112,14 +112,13 @@ Air Dashboard transforms natural gestures into digital visuals, enhanced in real
 
 ## 🎬 Live Demonstration
 
-See Air Dashboard in action: **[Download Video Demo](demo.mp4)**
+See Air Dashboard in action: **[Download Video Demo](demo.mp4)** -->
 
----
+
 
 ## 👥 Team Hi-Idea
 
 - Nitin Kumar  
-- Dhruv Raj Saini  
 - Khusi Mishra  
 - Pratham Kumar Gupta  
 
