@@ -1,14 +1,12 @@
 matplotlib==3.10.1
 mediapipe==0.10.21
-numpy==2.2.5
-onefilter==0.0.1
+numpy==1.26.4
 opencv_contrib_python==4.10.0.84
 opencv_python==4.11.0.86
 opencv_python_headless==4.11.0.86
 Pillow==11.2.1
 protobuf==6.30.2
 pygame==2.6.1
-PyOpenGL==3.1.9
 PyOpenGL==3.1.9
 python-dotenv==1.1.0
 pyttsx3==2.98
@@ -17,5 +15,4 @@ scipy==1.15.2
 speechrecognition==3.14.2
 streamlit==1.43.2
 sympy==1.13.1
-tensorflow==2.19.0
-tensorflow_cpu==2.19.0
+tensorflow-cpu==2.19.0
