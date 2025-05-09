@@ -5,7 +5,7 @@ opencv_contrib_python==4.10.0.84
 opencv_python==4.11.0.86
 opencv_python_headless==4.11.0.86
 Pillow==11.2.1
-protobuf==6.30.2
+protobuf==4.25.3  # ✅ fixed version
 pygame==2.6.1
 PyOpenGL==3.1.9
 python-dotenv==1.1.0
