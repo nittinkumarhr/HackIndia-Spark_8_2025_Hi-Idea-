@@ -16,3 +16,9 @@ speechrecognition==3.14.2
 streamlit==1.43.2
 sympy==1.13.1
 tensorflow-cpu==2.19.0
+libgl1-mesa-glx
+libglib2.0-0
+libsm6
+libxrender1
+libxext6
+libfontconfig1
