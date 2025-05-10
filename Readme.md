@@ -99,7 +99,7 @@ Air Dashboard transforms natural gestures into digital visuals, enhanced in real
 - Custom Models – For accuracy & sign recognition
 
 ### 🖥 User Interface
-- Tkinter – Python-based interactive GUI
+-  Streamlit – Python-based interactive GUI
 - Multithreading – Smooth input, processing & display
 - Queue System – Lag-free task handling
 
