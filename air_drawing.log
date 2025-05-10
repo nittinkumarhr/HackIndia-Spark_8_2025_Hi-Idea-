@@ -1,0 +1,244 @@
+2025-05-09 13:56:45,205 INFO: Speech recognition initialized successfully
+2025-05-09 14:06:55,056 INFO: Speech recognition initialized successfully
+2025-05-09 14:07:03,563 INFO: Voice feedback: Listening
+2025-05-09 14:07:05,056 INFO: Listening for voice command
+2025-05-09 14:07:12,707 ERROR: Unexpected error in voice recognition: listening timed out while waiting for phrase to start
+2025-05-09 14:07:12,707 INFO: Voice feedback: Error occurred
+2025-05-09 14:07:26,532 INFO: Voice feedback: Listening
+2025-05-09 14:07:27,976 INFO: Listening for voice command
+2025-05-09 14:07:38,972 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 14:07:40,265 INFO: Listening for voice command
+2025-05-09 14:07:43,952 WARNING: Speech recognition failed, attempt 2/3
+2025-05-09 14:07:45,321 INFO: Listening for voice command
+2025-05-09 14:07:49,214 INFO: Voice recognized: draw the Red Cross circle
+2025-05-09 14:07:49,214 INFO: Parsed command: draw circle in color (255, 0, 0)
+2025-05-09 14:07:49,214 INFO: Voice feedback: Drawing circle
+2025-05-09 14:07:49,218 INFO: Generated circle at (640, 360) with color (255, 0, 0)
+2025-05-09 14:07:49,248 INFO: Voice feedback: Drew circle
+2025-05-09 15:01:23,847 INFO: Speech recognition initialized successfully
+2025-05-09 15:01:30,634 INFO: Voice feedback: Listening
+2025-05-09 15:01:32,281 INFO: Listening for voice command
+2025-05-09 15:01:43,349 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 15:01:44,655 INFO: Listening for voice command
+2025-05-09 15:01:50,398 WARNING: Speech recognition failed, attempt 2/3
+2025-05-09 15:01:51,758 INFO: Listening for voice command
+2025-05-09 15:02:01,423 INFO: Voice recognized: Unki problem
+2025-05-09 15:02:01,423 INFO: Voice feedback: Command not recognized
+2025-05-09 15:02:04,930 INFO: Voice feedback: Listening
+2025-05-09 15:02:06,296 INFO: Listening for voice command
+2025-05-09 15:02:10,310 INFO: Voice recognized: derive blue colour
+2025-05-09 15:02:10,310 INFO: Voice feedback: Command not recognized
+2025-05-09 15:02:16,436 INFO: Voice feedback: Listening
+2025-05-09 15:02:17,836 INFO: Listening for voice command
+2025-05-09 15:21:30,469 INFO: Speech recognition initialized successfully
+2025-05-09 15:21:36,434 INFO: Voice feedback: Listening
+2025-05-09 15:21:37,861 INFO: Listening for voice command
+2025-05-09 15:21:41,630 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 15:21:41,835 INFO: Voice feedback: Canvas cleared
+2025-05-09 15:21:42,873 INFO: Listening for voice command
+2025-05-09 15:21:47,878 WARNING: Speech recognition failed, attempt 2/3
+2025-05-09 15:21:49,252 INFO: Listening for voice command
+2025-05-09 15:21:52,178 WARNING: Speech recognition failed, attempt 3/3
+2025-05-09 15:21:52,178 INFO: Voice feedback: Could not understand audio
+2025-05-09 15:21:54,954 INFO: Voice feedback: Listening
+2025-05-09 15:21:56,527 INFO: Listening for voice command
+2025-05-09 15:21:58,921 INFO: Voice feedback: Canvas cleared
+2025-05-09 15:22:04,996 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 15:22:06,425 INFO: Listening for voice command
+2025-05-09 15:22:13,596 WARNING: Speech recognition failed, attempt 2/3
+2025-05-09 15:22:14,830 INFO: Listening for voice command
+2025-05-09 15:22:21,872 WARNING: Speech recognition failed, attempt 3/3
+2025-05-09 15:22:21,872 INFO: Voice feedback: Could not understand audio
+2025-05-09 15:29:16,955 INFO: Speech recognition initialized successfully
+2025-05-09 15:29:30,251 INFO: Voice feedback: Listening
+2025-05-09 15:29:31,726 INFO: Listening for voice command
+2025-05-09 15:29:38,738 ERROR: Unexpected error: listening timed out while waiting for phrase to start
+2025-05-09 15:29:38,739 INFO: Voice feedback: Error occurred
+2025-05-09 15:32:27,691 INFO: Speech recognition initialized successfully
+2025-05-09 15:32:35,070 INFO: Voice feedback: Listening
+2025-05-09 15:32:36,595 INFO: Listening for voice command
+2025-05-09 15:32:45,861 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 15:32:47,283 INFO: Listening for voice command
+2025-05-09 16:52:05,393 INFO: Speech recognition initialized successfully
+2025-05-09 16:52:11,264 INFO: Voice feedback: Listening
+2025-05-09 16:52:12,660 INFO: Listening for voice command
+2025-05-09 22:39:26,713 INFO: Speech recognition initialized
+2025-05-09 22:39:26,768 INFO: Text-to-speech initialized
+2025-05-09 22:39:26,839 INFO: Gesture recognition initialized
+2025-05-09 22:39:58,033 INFO: Speech recognition initialized
+2025-05-09 22:39:58,089 INFO: Text-to-speech initialized
+2025-05-09 22:39:58,156 INFO: Gesture recognition initialized
+2025-05-09 22:40:07,856 INFO: Voice feedback: Listening
+2025-05-09 22:40:09,121 INFO: Listening for voice command
+2025-05-09 22:40:12,786 INFO: Voice feedback: Help toggled
+2025-05-09 22:40:19,789 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 22:40:20,899 INFO: Listening for voice command
+2025-05-09 22:40:24,154 WARNING: Speech recognition failed, attempt 2/3
+2025-05-09 22:40:25,248 INFO: Listening for voice command
+2025-05-09 22:40:29,181 WARNING: Speech recognition failed, attempt 3/3
+2025-05-09 22:40:31,545 INFO: Voice feedback: Could not understand audio
+2025-05-09 22:40:41,290 INFO: Voice feedback: Freehand mode activated
+2025-05-09 22:40:42,604 INFO: Canvas state saved
+2025-05-09 22:40:42,705 INFO: Canvas state saved
+2025-05-09 22:40:42,820 INFO: Canvas state saved
+2025-05-09 22:40:42,944 INFO: Canvas state saved
+2025-05-09 22:40:43,042 INFO: Canvas state saved
+2025-05-09 22:40:43,157 INFO: Canvas state saved
+2025-05-09 22:40:43,262 INFO: Canvas state saved
+2025-05-09 22:40:43,377 INFO: Canvas state saved
+2025-05-09 22:40:43,489 INFO: Canvas state saved
+2025-05-09 22:40:43,595 INFO: Canvas state saved
+2025-05-09 22:40:43,731 INFO: Canvas state saved
+2025-05-09 22:40:43,860 INFO: Canvas state saved
+2025-05-09 22:40:43,961 INFO: Canvas state saved
+2025-05-09 22:40:44,094 INFO: Canvas state saved
+2025-05-09 22:40:44,201 INFO: Canvas state saved
+2025-05-09 22:40:44,295 INFO: Canvas state saved
+2025-05-09 22:40:44,420 INFO: Canvas state saved
+2025-05-09 22:40:44,526 INFO: Canvas state saved
+2025-05-09 22:40:44,658 INFO: Canvas state saved
+2025-05-09 22:40:44,757 INFO: Canvas state saved
+2025-05-09 22:40:44,890 INFO: Canvas state saved
+2025-05-09 22:40:44,985 INFO: Canvas state saved
+2025-05-09 22:40:45,084 INFO: Canvas state saved
+2025-05-09 22:40:45,187 INFO: Canvas state saved
+2025-05-09 22:40:45,325 INFO: Canvas state saved
+2025-05-09 22:40:45,416 INFO: Canvas state saved
+2025-05-09 22:40:45,532 INFO: Canvas state saved
+2025-05-09 22:40:45,657 INFO: Canvas state saved
+2025-05-09 22:40:45,786 INFO: Canvas state saved
+2025-05-09 22:40:45,887 INFO: Canvas state saved
+2025-05-09 22:40:46,019 INFO: Canvas state saved
+2025-05-09 22:40:46,154 INFO: Canvas state saved
+2025-05-09 22:40:46,287 INFO: Canvas state saved
+2025-05-09 22:40:46,418 INFO: Canvas state saved
+2025-05-09 22:40:46,518 INFO: Canvas state saved
+2025-05-09 22:40:46,651 INFO: Canvas state saved
+2025-05-09 22:40:46,752 INFO: Canvas state saved
+2025-05-09 22:40:46,883 INFO: Canvas state saved
+2025-05-09 22:40:47,013 INFO: Canvas state saved
+2025-05-09 22:40:47,114 INFO: Canvas state saved
+2025-05-09 22:40:47,246 INFO: Canvas state saved
+2025-05-09 22:40:47,345 INFO: Canvas state saved
+2025-05-09 22:40:47,444 INFO: Canvas state saved
+2025-05-09 22:40:47,584 INFO: Canvas state saved
+2025-05-09 22:40:47,711 INFO: Canvas state saved
+2025-05-09 22:40:47,848 INFO: Canvas state saved
+2025-05-09 22:40:47,981 INFO: Canvas state saved
+2025-05-09 22:40:48,077 INFO: Canvas state saved
+2025-05-09 22:40:48,178 INFO: Canvas state saved
+2025-05-09 22:40:48,303 INFO: Canvas state saved
+2025-05-09 22:40:48,395 INFO: Canvas state saved
+2025-05-09 22:40:48,508 INFO: Canvas state saved
+2025-05-09 22:40:48,611 INFO: Canvas state saved
+2025-05-09 22:40:48,761 INFO: Canvas state saved
+2025-05-09 22:40:48,832 INFO: Canvas state saved
+2025-05-09 22:40:48,945 INFO: Canvas state saved
+2025-05-09 22:40:49,056 INFO: Canvas state saved
+2025-05-09 22:40:49,174 INFO: Canvas state saved
+2025-05-09 22:40:49,275 INFO: Canvas state saved
+2025-05-09 22:40:49,376 INFO: Canvas state saved
+2025-05-09 22:40:49,476 INFO: Canvas state saved
+2025-05-09 22:40:50,310 INFO: Voice feedback: Listening
+2025-05-09 22:40:51,463 INFO: Listening for voice command
+2025-05-09 22:41:00,974 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 22:41:02,065 INFO: Listening for voice command
+2025-05-09 22:41:06,014 WARNING: Speech recognition failed, attempt 2/3
+2025-05-09 22:41:07,101 INFO: Listening for voice command
+2025-05-09 22:41:11,239 WARNING: Speech recognition failed, attempt 3/3
+2025-05-09 22:41:12,352 INFO: Canvas state saved
+2025-05-09 22:41:12,479 INFO: Canvas state saved
+2025-05-09 22:41:12,614 INFO: Canvas state saved
+2025-05-09 22:41:12,748 INFO: Canvas state saved
+2025-05-09 22:41:12,880 INFO: Canvas state saved
+2025-05-09 22:41:13,526 INFO: Voice feedback: Could not understand audio
+2025-05-09 22:41:21,069 INFO: Voice feedback: Listening
+2025-05-09 22:41:22,237 INFO: Listening for voice command
+2025-05-09 22:41:29,258 ERROR: Unexpected error in voice recognition: listening timed out while waiting for phrase to start
+2025-05-09 22:41:31,523 INFO: Voice feedback: Voice recognition failed
+2025-05-09 22:41:34,048 INFO: Voice feedback: Listening
+2025-05-09 22:41:35,208 INFO: Listening for voice command
+2025-05-09 22:41:40,203 INFO: Voice recognized: draw
+2025-05-09 22:41:41,525 INFO: Voice feedback: Command not recognized
+2025-05-09 22:45:54,977 INFO: Speech recognition initialized
+2025-05-09 22:45:55,034 INFO: Text-to-speech initialized
+2025-05-09 22:45:55,109 INFO: Gesture recognition initialized
+2025-05-09 22:59:35,428 INFO: Detected screen size via tkinter: 1920x1080, set canvas to 768x720
+2025-05-09 22:59:37,536 INFO: Speech recognition initialized
+2025-05-09 22:59:37,893 INFO: Text-to-speech initialized
+2025-05-09 22:59:38,087 INFO: Gesture recognition initialized
+2025-05-09 22:59:50,113 INFO: Voice feedback: Listening
+2025-05-09 22:59:51,310 INFO: Listening for voice command
+2025-05-09 22:59:55,941 INFO: Voice feedback: Help toggled
+2025-05-09 22:59:56,654 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 22:59:57,753 INFO: Listening for voice command
+2025-05-09 23:00:01,219 WARNING: Speech recognition failed, attempt 2/3
+2025-05-09 23:00:02,318 INFO: Listening for voice command
+2025-05-09 23:00:05,233 WARNING: Speech recognition failed, attempt 3/3
+2025-05-09 23:00:07,559 INFO: Voice feedback: Could not understand audio
+2025-05-09 23:00:13,996 INFO: Voice feedback: Listening
+2025-05-09 23:00:15,169 INFO: Listening for voice command
+2025-05-09 23:00:22,189 ERROR: Unexpected error in voice recognition: listening timed out while waiting for phrase to start
+2025-05-09 23:00:24,480 INFO: Voice feedback: Voice recognition failed
+2025-05-09 23:00:25,039 INFO: Voice feedback: Listening
+2025-05-09 23:00:26,242 INFO: Listening for voice command
+2025-05-09 23:00:31,345 WARNING: Speech recognition failed, attempt 1/3
+2025-05-09 23:00:32,471 INFO: Listening for voice command
+2025-05-09 23:00:35,364 WARNING: Speech recognition failed, attempt 2/3
+2025-05-09 23:00:36,503 INFO: Listening for voice command
+2025-05-09 23:00:40,383 WARNING: Speech recognition failed, attempt 3/3
+2025-05-09 23:00:42,697 INFO: Voice feedback: Could not understand audio
+2025-05-09 23:00:44,029 INFO: Voice feedback: Listening
+2025-05-09 23:00:45,239 INFO: Listening for voice command
+2025-05-09 23:17:07,830 INFO: Detected screen size via tkinter: 1920x1080, set canvas to 768x720
+2025-05-09 23:17:10,958 INFO: Speech recognition initialized with dynamic noise threshold
+2025-05-09 23:17:11,074 INFO: Text-to-speech initialized
+2025-05-09 23:17:11,169 INFO: Gesture recognition initialized
+2025-05-09 23:17:14,708 INFO: Voice feedback: Listening
+2025-05-09 23:17:15,828 INFO: Listening for voice command
+2025-05-09 23:17:20,004 INFO: Voice feedback: Help toggled
+2025-05-09 23:17:21,217 ERROR: Unexpected error in voice recognition: listening timed out while waiting for phrase to start
+2025-05-09 23:17:23,544 INFO: Voice feedback: Voice recognition failed
+2025-05-09 23:17:31,913 ERROR: Load error: File not found or invalid
+2025-05-09 23:17:33,231 INFO: Voice feedback: Error loading canvas
+2025-05-09 23:17:35,829 ERROR: Load error: File not found or invalid
+2025-05-09 23:17:37,178 INFO: Voice feedback: Error loading canvas
+2025-05-09 23:17:41,085 INFO: Voice feedback: Exported as drawing.svg
+2025-05-09 23:17:41,085 INFO: Canvas exported as drawing.svg
+2025-05-09 23:17:49,328 INFO: Voice feedback: Listening
+2025-05-09 23:17:50,525 INFO: Listening for voice command
+2025-05-09 23:17:55,530 ERROR: Unexpected error in voice recognition: listening timed out while waiting for phrase to start
+2025-05-09 23:17:57,841 INFO: Voice feedback: Voice recognition failed
+2025-05-09 23:17:59,584 INFO: Voice feedback: Listening
+2025-05-09 23:18:00,763 INFO: Listening for voice command
+2025-05-09 23:18:03,414 INFO: Voice recognized: draw
+2025-05-09 23:18:03,432 INFO: Parsed command: draw circle in color (0, 0, 255)
+2025-05-09 23:18:04,752 INFO: Voice feedback: Drawing circle
+2025-05-09 23:19:25,788 INFO: Detected screen size via tkinter: 1920x1080, set canvas to 768x720
+2025-05-09 23:19:28,920 INFO: Speech recognition initialized with dynamic noise threshold
+2025-05-09 23:19:28,983 INFO: Text-to-speech initialized
+2025-05-09 23:19:29,062 INFO: Gesture recognition initialized
+2025-05-09 23:19:43,850 INFO: Voice feedback: Listening
+2025-05-09 23:19:45,195 INFO: Listening for voice command
+2025-05-09 23:19:50,209 ERROR: Unexpected error in voice recognition: listening timed out while waiting for phrase to start
+2025-05-09 23:19:52,506 INFO: Voice feedback: Voice recognition failed
+2025-05-09 23:20:07,910 INFO: Voice feedback: Help toggled
+2025-05-09 23:20:20,126 INFO: Voice feedback: Listening
+2025-05-09 23:20:21,292 INFO: Listening for voice command
+2025-05-09 23:20:27,989 INFO: Voice recognized: Jo
+2025-05-09 23:20:29,408 INFO: Voice feedback: Command not recognized
+2025-05-09 23:20:31,523 INFO: Voice feedback: Listening
+2025-05-09 23:20:32,661 INFO: Listening for voice command
+2025-05-09 23:20:37,714 ERROR: Unexpected error in voice recognition: listening timed out while waiting for phrase to start
+2025-05-09 23:20:40,007 INFO: Voice feedback: Voice recognition failed
+2025-05-09 23:20:49,510 INFO: Voice feedback: Listening
+2025-05-09 23:20:50,702 INFO: Listening for voice command
+2025-05-09 23:20:55,752 ERROR: Unexpected error in voice recognition: listening timed out while waiting for phrase to start
+2025-05-09 23:30:10,518 INFO: Detected screen size via tkinter: 1920x1080, set canvas to 672x768
+2025-05-09 23:30:15,668 INFO: Speech recognition initialized with dynamic noise threshold
+2025-05-09 23:30:15,732 INFO: Text-to-speech initialized
+2025-05-09 23:30:15,795 INFO: Gesture recognition initialized
+2025-05-09 23:39:39,424 INFO: Detected screen size via tkinter: 1920x1080, set canvas to 672x768
+2025-05-09 23:39:44,599 INFO: Speech recognition initialized with dynamic noise threshold
+2025-05-09 23:39:44,817 INFO: Text-to-speech initialized
+2025-05-09 23:39:44,930 INFO: Gesture recognition initialized
