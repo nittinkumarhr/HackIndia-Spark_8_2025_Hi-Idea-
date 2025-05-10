@@ -22,7 +22,6 @@ class ComprehensiveASLRecognizer:
             min_detection_confidence=0.7,
             min_tracking_confidence=0.6
         )
-
         # Comprehensive Gesture Classes
         self.gesture_classes = {
             # Basic Communication Gestures
